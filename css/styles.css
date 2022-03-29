@@ -7,7 +7,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 *,
 *:before,
@@ -47,6 +47,21 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.btn {
+  padding: 1rem 5rem;
+  border: none;
+  background-color: lawngreen;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color .2s ease-in;
+}
+
+.btn:hover {
+  background-color: green;
+  color: wheat;
 }
 
 /* Header */
@@ -97,7 +112,7 @@ a {
   padding: 1rem 0;
 }
 
-.navegacion a:hover{
+.navegacion a:hover {
   text-decoration: underline;
 }
 
@@ -179,10 +194,76 @@ a {
   font-size: 1.5rem;
 }
 
-
 /* Calendario */
 .calendario__heading {
   text-align: center;
   padding: 6rem 0;
   margin-top: 0;
+}
+
+/* Boletin */
+.boletin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem 0rem;
+  padding: 0 5rem;
+}
+
+@media (min-width: 768px) {
+  .boletin {
+    gap: 5rem 0;
+    padding: 0 20rem;
+  }
+}
+
+.boletin__heading {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .boletin__heading {
+    font-size: 4.4rem;
+  }
+}
+
+.boletin__descripcion {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+/* Formulario */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__etiquetas {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem 0;
+  padding-bottom: 5rem;
+}
+
+.form__label {
+  text-align: center;
+  font-size: 3.4rem;
+  color: green;
+}
+
+.form__input {
+  padding: 1rem 5rem;
+  border: 1px solid green;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.form__btn {
+  text-align: center;
+  margin-bottom: 5rem;
 }
