@@ -19,7 +19,7 @@
       <h2 class="header__heading">Escuela<span>Primaria</span> </h2>
     </div>
     <div class="header__menu">
-      <nav class="navegacion">
+      <nav class="navegacion contenedor">
         <a href="index.html">Inicio</a>
         <a href="calendario.html">Calendario</a>
         <a href="boletin.html">Boletin informativo</a>
@@ -27,8 +27,8 @@
     </div>
   </header>
 
-  <main class="publicaciones contenedor">
-    <div class="form__registrar">
+  <main class="formlg contenedor">
+    <div class="formlg__registrar">
       <form action="">
         <fieldset class="legend__registrar">
           <legend>Registrar</legend>
@@ -47,11 +47,11 @@
             <input type="password" placeholder="Contraseña">
           </div>
         </fieldset>
-        <input type="button" value="Registrar">
+        <input class="btn" type="button" value="Registrar">
       </form>
     </div>
 
-    <div class="form__login">
+    <div class="formlg__login">
       <form action="">
         <fieldset>
           <legend>Entrar</legend>
@@ -59,12 +59,13 @@
             <label for="">Correo electronico</label>
             <input type="text" placeholder="admin@gmail.com">
           </div>
-          
+
           <div class="campo">
             <label for="">Contraseña</label>
             <input type="password" placeholder="******">
           </div>
         </fieldset>
+        <input class="btn" type="button" value="Entrar">
       </form>
     </div>
   </main>
