@@ -194,6 +194,22 @@ a {
   font-size: 1.5rem;
 }
 
+/* Admin */
+.admin {
+  display: block;
+  text-align: right;
+  margin-right: 15rem;
+  margin-top: .5rem;
+  font-size: 1.7rem;
+  color: wheat;
+  transition: all .2s ease-in;
+}
+
+.admin:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 /* Calendario */
 .calendario__heading {
   text-align: center;

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O.Fortiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__imagen">
+      <h2 class="header__heading">Escuela<span>Primaria</span> </h2>
+    </div>
+    <div class="header__menu">
+      <nav class="navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="calendario.html">Calendario</a>
+        <a href="boletin.html">Boletin informativo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="publicaciones contenedor">
+    <div class="form__registrar">
+      <form action="">
+        <fieldset class="legend__registrar">
+          <legend>Registrar</legend>
+          <div class="campo">
+            <label for="">Nombre</label>
+            <input type="text" placeholder="tu Nombre">
+          </div>
+
+          <div class="campo">
+            <label for="">Correo electronico</label>
+            <input type="text" placeholder="Tu email">
+          </div>
+
+          <div class="campo">
+            <label for="">Contraseña</label>
+            <input type="password" placeholder="Contraseña">
+          </div>
+        </fieldset>
+        <input type="button" value="Registrar">
+      </form>
+    </div>
+
+    <div class="form__login">
+      <form action="">
+        <fieldset>
+          <legend>Entrar</legend>
+          <div class="campo">
+            <label for="">Correo electronico</label>
+            <input type="text" placeholder="admin@gmail.com">
+          </div>
+          
+          <div class="campo">
+            <label for="">Contraseña</label>
+            <input type="password" placeholder="******">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyryght">Todos los derechos reservados &copy; Escuela Primaria</p>
+
+    <a class="admin" href="login.html">Administrar</a>
+  </footer>
+</body>
+
+</html>
